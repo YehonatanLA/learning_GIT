@@ -4,13 +4,14 @@ class Basket():
     def __init__(self,list1):
         self.list1 = list1
         print("new basket...")
-    
+        print("Initializing...")
+
     def printTotalBasket(self):
         sum1 = 0
         for i in self.list1:
             sum1 = sum1 + i.amount * i.price
         print("total basket price:", sum1)
-        
+
     def __repr__(self):
         ll = ""
         for i in self.list1:
