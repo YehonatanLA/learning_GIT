@@ -4,7 +4,7 @@ class Basket():
     def __init__(self,list1):
         self.list1 = list1
         print("new basket... this time from home!")
-        print("Initializing...")
+        print("Initializing... this time from home!")
 
     def printTotalBasket(self):
         sum1 = 0
